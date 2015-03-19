@@ -13,4 +13,4 @@ error <- rnorm(n, 0, 3)
 y <- 3 + 0.5*x + error
 plot(x,y,pch='*') # make a scatterplot of what was simulated
 title('The line y = 3 + 0.5x, n = 50')
-lines(x,fit$fitted.values) # add a line with the fitted values
+
